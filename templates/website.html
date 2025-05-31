@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UFT-8">
+    <title>Fitness Gym - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Fitness Gym</h1>
+        <nav>
+        <a href="{{ url_for('home') }}">Home</a> 
+        <a href="{{ url_for('about') }}">About Us</a> 
+        <a href="{{ url_for('membership') }}">Membership</a>
+    </nav>
+        <hr>
+    </header>
+
+    <main>
+        <h2>Your Fitness Journey Starts Here</h2>
+        <p>Welcome to Fitness Gym, where we help you achieve your health and fitness goals with top-notch facilities and
+            professional trainers.</p>
+        <p>Join a community that supports, motivates, and inspires every day.</p>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 Fitness Gym. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
